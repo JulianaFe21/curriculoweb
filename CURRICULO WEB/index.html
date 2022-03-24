@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/imagem/icons8-female-working-with-a-laptop-48.png">
+    <title>Curriculo Online - Login</title>
+    <link rel="stylesheet" href="CSS/estilo.css">
+</head>
+<body>
+    <main id="tela-login">
+        <figure>
+            <img src="assets/imagem/login.png" alt="logo"/>
+        </figure>
+            <div id="login"></div>
+        <form action="perfil.html" method="POST">
+                <div>
+                    <label for="email">E-mail: </label>
+                    <input 
+                        type="email" 
+                        name="email" 
+                        id="email" 
+                        placeholder="email@email.com"
+                        required
+                        autofocus
+                    >
+                    <br>
+                    <label for="senha">Senha: </label>
+                    <input 
+                        type="password"
+                        name="senha"
+                        id="senha"
+                        placeholder="senha"
+                        required
+                        autofocus
+                    >
+                </div>
+                <br>
+                <div>
+                    <input
+                        type="submit" 
+                        name="btn-enviar" 
+                        id="brt-enviar" 
+                        value="Enviar"
+                    >
+                        &nbsp;
+                    <input 
+                        type="reset" 
+                        name="btn-limpar" 
+                        id="brt-limpar" 
+                        value="Limpar"
+                    >
+                </div>
+            </form>      
+    </main>
+</body>
+</html>
